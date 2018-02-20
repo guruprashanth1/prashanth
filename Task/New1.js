@@ -8,7 +8,8 @@ app.controller("myctr",function($scope ){
         "designation":"develper",
         "age": "19",
         "gender": "male",
-        "slalry":"20000"
+        "slalry":"20000",
+        "photo": "http://p.imgci.com/db/PICTURES/CMS/128400/128483.1.jpg"
         
         },
         {
@@ -17,7 +18,8 @@ app.controller("myctr",function($scope ){
             "designation":"develper",
             "age": "23",
             "gender": "male",
-            "slalry":"10000"
+            "slalry":"10000",
+            "photo": "http://p.imgci.com/db/PICTURES/CMS/108400/108439.1.jpg"
             
         },
         {
@@ -26,7 +28,8 @@ app.controller("myctr",function($scope ){
             "designation":"manager",
             "age": "45",
             "gender": "male",
-            "slalry":"20000"
+            "slalry":"20000",
+            "photo":"http://p.imgci.com/db/PICTURES/CMS/263600/263697.20.jpg"
             
         },
         {

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
    <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="style.css">
     <script src="angular.min.js"></script>
     <script src="New1.js"></script>
 </head>
@@ -18,7 +19,7 @@
     <input type="text"  ng-model="order" class="form-group col2-md-2" placeholder="order" >
                 
         
-<table class= "table table-bordered">
+<table class= "table table-active">
     <tr>
         <th> Emp name </th>
         <th> Emp id</th>
@@ -26,7 +27,8 @@
         <th>Emp age</th>
         <th>Gender</th>
         <th>Emp sal</th>
-        
+        <th>photo</th>
+
     </tr>
     <tr ng-repeat="s in emps | filter:search | limitTo:limit |orderBy:age">
         <td>{{s.name}}</td>
@@ -35,6 +37,7 @@
             <td>{{s.age}}</td>
             <td>{{s.gender}}</td>
             <td>{{s.slalry}}</td>
+            <td><img  ng-src="{{s.photo}}"></td>
 
     </tr>
 </table>

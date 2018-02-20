@@ -16,7 +16,7 @@
         "age": "23",
         "gender": "male",
         "slalry":"20000",
-        "photo": "http://p.imgci.com/db/PICTURES/CMS/128400/128483.1.jpg"
+        "photo": "http://p.imgci.com/db/PICTURES/CMS/108400/108439.1.jpg"
         
     },
     {
@@ -26,8 +26,8 @@
         "age": "45",
         "gender": "male",
         "slalry":"20000",
-        "photo": "http://p.imgci.com/db/PICTURES/CMS/128400/128483.1.jpg"
-        
+        "photo": "http://p.imgci.com/db/PICTURES/CMS/92300/92389.1.jpg"
+    
     },
     {
         "name": "Appu",
@@ -36,7 +36,7 @@
         "age": "29",
         "gender": "female",
         "slalry":"20000",
-        "photo": "http://p.imgci.com/db/PICTURES/CMS/128400/128483.1.jpg"
+        "photo":"http://p.imgci.com/db/PICTURES/CMS/263600/263697.20.jpg"
         
     }
 ]
