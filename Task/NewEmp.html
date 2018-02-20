@@ -30,13 +30,13 @@
         <th>photo</th>
 
     </tr>
-    <tr ng-repeat="s in emps | filter:search | limitTo:limit |orderBy:age">
+    <tr ng-repeat="s in emps | filter:search | limitTo:limit |orderBy:order">
         <td>{{s.name}}</td>
         <td>{{s.eid}}</td>
         <td>{{s.designation}}</td>
             <td>{{s.age}}</td>
             <td>{{s.gender}}</td>
-            <td>{{s.slalry}}</td>
+            <td>{{s.salary}}</td>
             <td><img  ng-src="{{s.photo}}"></td>
 
     </tr>
