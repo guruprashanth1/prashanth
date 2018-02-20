@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="task1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   <link rel="stylesheet" href="bootstrap.css">
+    <script src="angular.min.js"></script>
+    <script src="New1.js"></script>
+</head>
+<body>
+    
+            <div class="container" ng-controller="myctr">
+        
+        <input class="form-group col-md-4" ng-model="search" type="text" placeholder="search"> 
+     <input class="form-group col-md-2"  ng-model="limit" type="text" placeholder="limit by" >
+    <input type="text"  ng-model="order" class="form-group col2-md-2" placeholder="order" >
+                
+        
+<table class= "table table-bordered">
+    <tr>
+        <th> Emp name </th>
+        <th> Emp id</th>
+        <th>Emp desig</th>
+        <th>Emp age</th>
+        <th>Gender</th>
+        <th>Emp sal</th>
+        
+    </tr>
+    <tr ng-repeat="s in emps | filter:search | limitTo:limit |orderBy:age">
+        <td>{{s.name}}</td>
+        <td>{{s.eid}}</td>
+        <td>{{s.designation}}</td>
+            <td>{{s.age}}</td>
+            <td>{{s.gender}}</td>
+            <td>{{s.slalry}}</td>
+
+    </tr>
+</table>
+
+    
+    </div>
+</body>
+</html>

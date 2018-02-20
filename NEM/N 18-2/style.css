@@ -1,0 +1,7 @@
+.enter{
+    background: red;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    transition: ease all 0.5s;
+}
