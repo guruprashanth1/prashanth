@@ -12,7 +12,7 @@ myapp.config(["$routeProvider","$locationProvider",function($routeProvider,$loca
     }).when("/success",{
         title:"success",
         templateUrl:"Views/success.html",
-        //controller:"successCtr"
+        controller:"successCtr"
     }).when("/homepage",{
         title:"login application",
         templateUrl:"Views/home.html",
